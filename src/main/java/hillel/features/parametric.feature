@@ -6,14 +6,12 @@ Feature: Checking WIKI tabs text
       |    | tab1       |tab2  |tab3                |tab4              |
       | fr | Discussion |Lire  |Voir le texte source|Voir l`historique |
       | de | Diskussion |Lesen |Quelltext anzeigen  |Versionsgeschichte|
-      | en | Talk       |Read  |View source         |View history      |
       | it | Discussione|Leggi |Visualizza sorgente |Cronologia        |
+      | en | Talk       |Read  |View source         |View history      |
 
     Examples:
       | country |
       | en      |
       | fr      |
-      | de      |
       | it      |
-
-
+      | de      |

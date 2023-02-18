@@ -28,14 +28,13 @@ public class WikiPage {
         return viewHistoryTab.getText();
     }
 
-
     public String getPageInfo(){
         talkTab.getText();
         readTab.getText();
         viewSourceTab.getText();
         viewHistoryTab.getText();
-        return "tab1= " + talkTab.getText()+", "+ "tab2= "+ readTab.getText()+", "+"tab3= "
-                +viewSourceTab.getText()+", "+"tab4= "+viewHistoryTab.getText();
+        return "{tab1=" + talkTab.getText()+", "+ "tab2="+ readTab.getText()+", "+"tab3="
+                +viewSourceTab.getText()+", "+"tab4="+viewHistoryTab.getText()+"}";
     }
 
     public WikiPage(WebDriver driver) {
